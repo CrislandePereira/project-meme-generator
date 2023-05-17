@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Montserrat+Alternates:wght@300&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <title>Meme Generator</title>
+</head>
+
+<body>
+  <main>
+    <h1>Meme Generator</h1>
+    <div class="text-img">
+      <label for="text-input">Texto:</label>
+      <input type="text" name="text-input" id="text-input" maxlength="60">
+      <br><br>
+      <label for="meme-image">Foto:</label>
+      <input type="file" name="meme-insert" id="meme-insert">
+      <br><br>
+    </div>
+    <div class="container" id="meme-image-container">
+      <div id="meme-text"></div>
+      <img class="meme-image" name="meme-image" id="meme-image" src="" alt="">
+    </div>
+    <br>
+    <button class="btn" id="fire">Fire</button>
+    <button class="btn" id="water">Water</button>
+    <button class="btn" id="earth">Earth</button>
+    <br>
+    <div id="mini-img">
+      <img class="img" id="meme-1" src="imgs/meme1.png" alt="">
+      <img class="img" id="meme-2" src="imgs/meme2.png" alt="">
+      <img class="img" id="meme-3" src="imgs/meme3.png" alt="">
+      <img class="img" id="meme-4" src="imgs/meme4.png" alt="">
+    </div>
+  </main>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
